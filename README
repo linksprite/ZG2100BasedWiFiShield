@@ -5,3 +5,21 @@ cuhead library and TCP/IP stack files for the cuhead wifi wireless devices
 LinkSprite.com
 
 Support Arduino IDE 1000
+
+
+To compile different samples, please choose different define in apps-conf.h
+
+//Here we include the header file for the application(s) we use in our project.
+
+
+#define APP_WEBSERVER
+
+
+//#define APP_WEBCLIENT
+
+
+//#define APP_SOCKAPP
+
+//#define APP_UDPAPP
+
+//#define APP_WISERVER

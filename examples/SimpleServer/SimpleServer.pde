@@ -2,7 +2,7 @@
  * A simple sketch that uses WiServer to serve a web page
  */
 
-
+#include <WiShield.h>
 #include <WiServer.h>
 
 #define WIRELESS_MODE_INFRA	1

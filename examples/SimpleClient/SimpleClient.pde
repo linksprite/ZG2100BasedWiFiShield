@@ -3,6 +3,7 @@
  * it via the Serial API
  */
 
+#include <WiShield.h>
 #include <WiServer.h>
 
 #define WIRELESS_MODE_INFRA	1

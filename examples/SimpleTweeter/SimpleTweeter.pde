@@ -2,6 +2,7 @@
  * A simple sketch that uses WiServer to send a tweet with the current system time every 5 minutes
  */
 
+#include <WiShield.h>
 #include <WiServer.h>
 
 #define WIRELESS_MODE_INFRA	1
